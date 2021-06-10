@@ -8,7 +8,7 @@ import * as google_api_annotations_pb from "../../../../google/api/annotations_p
 import * as tendermint_p2p_types_pb from "../../../../tendermint/p2p/types_pb";
 import * as tendermint_types_block_pb from "../../../../tendermint/types/block_pb";
 import * as tendermint_types_types_pb from "../../../../tendermint/types/types_pb";
-import * as cosmos_base_query_v1beta1_pagination_pb from "../../query/v1beta1/pagination_pb";
+import * as cosmos_base_query_v1beta1_pagination_pb from "../../../../cosmos/base/query/v1beta1/pagination_pb";
 
 export class GetValidatorSetByHeightRequest extends jspb.Message {
   getHeight(): number;

@@ -1,7 +1,7 @@
 // package: cosmos.tx.v1beta1
 // file: cosmos/tx/v1beta1/service.proto
 
-import * as cosmos_tx_v1beta1_service_pb from "./service_pb";
+import * as cosmos_tx_v1beta1_service_pb from "../../../cosmos/tx/v1beta1/service_pb";
 import {grpc} from "@improbable-eng/grpc-web";
 
 type ServiceSimulate = {

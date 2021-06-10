@@ -1,7 +1,7 @@
 // package: cosmos.distribution.v1beta1
 // file: cosmos/distribution/v1beta1/tx.proto
 
-import * as cosmos_distribution_v1beta1_tx_pb from "./tx_pb";
+import * as cosmos_distribution_v1beta1_tx_pb from "../../../cosmos/distribution/v1beta1/tx_pb";
 import {grpc} from "@improbable-eng/grpc-web";
 
 type MsgSetWithdrawAddress = {

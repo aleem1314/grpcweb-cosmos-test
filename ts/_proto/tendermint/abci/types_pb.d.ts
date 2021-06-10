@@ -2,10 +2,10 @@
 // file: tendermint/abci/types.proto
 
 import * as jspb from "google-protobuf";
-import * as tendermint_crypto_proof_pb from "../crypto/proof_pb";
-import * as tendermint_types_types_pb from "../types/types_pb";
-import * as tendermint_crypto_keys_pb from "../crypto/keys_pb";
-import * as tendermint_types_params_pb from "../types/params_pb";
+import * as tendermint_crypto_proof_pb from "../../tendermint/crypto/proof_pb";
+import * as tendermint_types_types_pb from "../../tendermint/types/types_pb";
+import * as tendermint_crypto_keys_pb from "../../tendermint/crypto/keys_pb";
+import * as tendermint_types_params_pb from "../../tendermint/types/params_pb";
 import * as google_protobuf_timestamp_pb from "google-protobuf/google/protobuf/timestamp_pb";
 import * as gogoproto_gogo_pb from "../../gogoproto/gogo_pb";
 

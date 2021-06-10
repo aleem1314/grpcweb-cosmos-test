@@ -1,7 +1,7 @@
 // package: cosmos.gov.v1beta1
 // file: cosmos/gov/v1beta1/query.proto
 
-import * as cosmos_gov_v1beta1_query_pb from "./query_pb";
+import * as cosmos_gov_v1beta1_query_pb from "../../../cosmos/gov/v1beta1/query_pb";
 import {grpc} from "@improbable-eng/grpc-web";
 
 type QueryProposal = {

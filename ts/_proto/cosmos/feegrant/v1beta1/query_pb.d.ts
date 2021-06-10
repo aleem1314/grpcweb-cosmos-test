@@ -2,8 +2,8 @@
 // file: cosmos/feegrant/v1beta1/query.proto
 
 import * as jspb from "google-protobuf";
-import * as cosmos_feegrant_v1beta1_feegrant_pb from "./feegrant_pb";
-import * as cosmos_base_query_v1beta1_pagination_pb from "../../base/query/v1beta1/pagination_pb";
+import * as cosmos_feegrant_v1beta1_feegrant_pb from "../../../cosmos/feegrant/v1beta1/feegrant_pb";
+import * as cosmos_base_query_v1beta1_pagination_pb from "../../../cosmos/base/query/v1beta1/pagination_pb";
 import * as google_api_annotations_pb from "../../../google/api/annotations_pb";
 
 export class QueryAllowanceRequest extends jspb.Message {

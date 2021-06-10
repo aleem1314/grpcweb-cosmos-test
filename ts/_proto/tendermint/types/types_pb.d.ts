@@ -4,9 +4,9 @@
 import * as jspb from "google-protobuf";
 import * as gogoproto_gogo_pb from "../../gogoproto/gogo_pb";
 import * as google_protobuf_timestamp_pb from "google-protobuf/google/protobuf/timestamp_pb";
-import * as tendermint_crypto_proof_pb from "../crypto/proof_pb";
-import * as tendermint_version_types_pb from "../version/types_pb";
-import * as tendermint_types_validator_pb from "./validator_pb";
+import * as tendermint_crypto_proof_pb from "../../tendermint/crypto/proof_pb";
+import * as tendermint_version_types_pb from "../../tendermint/version/types_pb";
+import * as tendermint_types_validator_pb from "../../tendermint/types/validator_pb";
 
 export class PartSetHeader extends jspb.Message {
   getTotal(): number;

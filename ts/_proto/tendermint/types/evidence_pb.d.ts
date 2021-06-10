@@ -4,8 +4,8 @@
 import * as jspb from "google-protobuf";
 import * as gogoproto_gogo_pb from "../../gogoproto/gogo_pb";
 import * as google_protobuf_timestamp_pb from "google-protobuf/google/protobuf/timestamp_pb";
-import * as tendermint_types_types_pb from "./types_pb";
-import * as tendermint_types_validator_pb from "./validator_pb";
+import * as tendermint_types_types_pb from "../../tendermint/types/types_pb";
+import * as tendermint_types_validator_pb from "../../tendermint/types/validator_pb";
 
 export class Evidence extends jspb.Message {
   hasDuplicateVoteEvidence(): boolean;

@@ -1,7 +1,7 @@
 // package: cosmos.staking.v1beta1
 // file: cosmos/staking/v1beta1/query.proto
 
-import * as cosmos_staking_v1beta1_query_pb from "./query_pb";
+import * as cosmos_staking_v1beta1_query_pb from "../../../cosmos/staking/v1beta1/query_pb";
 import {grpc} from "@improbable-eng/grpc-web";
 
 type QueryValidators = {

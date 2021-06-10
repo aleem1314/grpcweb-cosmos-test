@@ -3,9 +3,9 @@
 
 import * as jspb from "google-protobuf";
 import * as gogoproto_gogo_pb from "../../../gogoproto/gogo_pb";
-import * as cosmos_crypto_multisig_v1beta1_multisig_pb from "../../crypto/multisig/v1beta1/multisig_pb";
-import * as cosmos_base_v1beta1_coin_pb from "../../base/v1beta1/coin_pb";
-import * as cosmos_tx_signing_v1beta1_signing_pb from "../signing/v1beta1/signing_pb";
+import * as cosmos_crypto_multisig_v1beta1_multisig_pb from "../../../cosmos/crypto/multisig/v1beta1/multisig_pb";
+import * as cosmos_base_v1beta1_coin_pb from "../../../cosmos/base/v1beta1/coin_pb";
+import * as cosmos_tx_signing_v1beta1_signing_pb from "../../../cosmos/tx/signing/v1beta1/signing_pb";
 import * as google_protobuf_any_pb from "google-protobuf/google/protobuf/any_pb";
 
 export class Tx extends jspb.Message {

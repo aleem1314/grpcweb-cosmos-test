@@ -1,7 +1,7 @@
 // package: cosmos.mint.v1beta1
 // file: cosmos/mint/v1beta1/query.proto
 
-import * as cosmos_mint_v1beta1_query_pb from "./query_pb";
+import * as cosmos_mint_v1beta1_query_pb from "../../../cosmos/mint/v1beta1/query_pb";
 import {grpc} from "@improbable-eng/grpc-web";
 
 type QueryParams = {

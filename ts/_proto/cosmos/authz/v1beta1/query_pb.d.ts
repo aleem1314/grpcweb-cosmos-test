@@ -3,8 +3,8 @@
 
 import * as jspb from "google-protobuf";
 import * as google_api_annotations_pb from "../../../google/api/annotations_pb";
-import * as cosmos_base_query_v1beta1_pagination_pb from "../../base/query/v1beta1/pagination_pb";
-import * as cosmos_authz_v1beta1_authz_pb from "./authz_pb";
+import * as cosmos_base_query_v1beta1_pagination_pb from "../../../cosmos/base/query/v1beta1/pagination_pb";
+import * as cosmos_authz_v1beta1_authz_pb from "../../../cosmos/authz/v1beta1/authz_pb";
 
 export class QueryGrantsRequest extends jspb.Message {
   getGranter(): string;

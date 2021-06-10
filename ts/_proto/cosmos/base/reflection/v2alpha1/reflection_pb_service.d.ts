@@ -1,7 +1,7 @@
 // package: cosmos.base.reflection.v2alpha1
 // file: cosmos/base/reflection/v2alpha1/reflection.proto
 
-import * as cosmos_base_reflection_v2alpha1_reflection_pb from "./reflection_pb";
+import * as cosmos_base_reflection_v2alpha1_reflection_pb from "../../../../cosmos/base/reflection/v2alpha1/reflection_pb";
 import {grpc} from "@improbable-eng/grpc-web";
 
 type ReflectionServiceGetAuthnDescriptor = {

@@ -6,8 +6,8 @@ import * as cosmos_proto_cosmos_pb from "../../../cosmos_proto/cosmos_pb";
 import * as gogoproto_gogo_pb from "../../../gogoproto/gogo_pb";
 import * as google_protobuf_timestamp_pb from "google-protobuf/google/protobuf/timestamp_pb";
 import * as google_protobuf_any_pb from "google-protobuf/google/protobuf/any_pb";
-import * as cosmos_base_abci_v1beta1_abci_pb from "../../base/abci/v1beta1/abci_pb";
-import * as cosmos_authz_v1beta1_authz_pb from "./authz_pb";
+import * as cosmos_base_abci_v1beta1_abci_pb from "../../../cosmos/base/abci/v1beta1/abci_pb";
+import * as cosmos_authz_v1beta1_authz_pb from "../../../cosmos/authz/v1beta1/authz_pb";
 
 export class MsgGrant extends jspb.Message {
   getGranter(): string;

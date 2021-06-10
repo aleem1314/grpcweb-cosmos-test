@@ -1,7 +1,7 @@
 // package: tendermint.abci
 // file: tendermint/abci/types.proto
 
-import * as tendermint_abci_types_pb from "./types_pb";
+import * as tendermint_abci_types_pb from "../../tendermint/abci/types_pb";
 import {grpc} from "@improbable-eng/grpc-web";
 
 type ABCIApplicationEcho = {

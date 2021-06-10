@@ -3,7 +3,7 @@
 
 import * as jspb from "google-protobuf";
 import * as gogoproto_gogo_pb from "../../../gogoproto/gogo_pb";
-import * as cosmos_slashing_v1beta1_slashing_pb from "./slashing_pb";
+import * as cosmos_slashing_v1beta1_slashing_pb from "../../../cosmos/slashing/v1beta1/slashing_pb";
 
 export class GenesisState extends jspb.Message {
   hasParams(): boolean;

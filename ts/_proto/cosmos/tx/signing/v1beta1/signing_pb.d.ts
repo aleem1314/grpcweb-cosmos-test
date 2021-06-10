@@ -2,7 +2,7 @@
 // file: cosmos/tx/signing/v1beta1/signing.proto
 
 import * as jspb from "google-protobuf";
-import * as cosmos_crypto_multisig_v1beta1_multisig_pb from "../../../crypto/multisig/v1beta1/multisig_pb";
+import * as cosmos_crypto_multisig_v1beta1_multisig_pb from "../../../../cosmos/crypto/multisig/v1beta1/multisig_pb";
 import * as google_protobuf_any_pb from "google-protobuf/google/protobuf/any_pb";
 
 export class SignatureDescriptors extends jspb.Message {
